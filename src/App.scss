@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    #root {
+        height: inherit;
+        width: inherit;
+        position: relative;
+
+        .page-bg {
+            height: inherit;
+            width: inherit;
+            background: radial-gradient(circle, #516395 2%, #614385);
+            position: fixed;
+            z-index: -1;
+        }
+    }
+}
+
+div {
+    -webkit-tap-highlight-color: transparent;
+}

@@ -1,12 +1,13 @@
-import './App.css';
+import './App.scss';
+import WiggleText from "./components/wiggleText/WiggleText.tsx";
 
-function App() {
+export default function App() {
 
     return (
         <>
-            Hello world!
+            <div className="page-bg"></div>
+            <WiggleText text={"Type Something!"}>
+            </WiggleText>
         </>
     )
 }
-
-export default App
