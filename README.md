@@ -1,1 +1,1 @@
-# BinaryConvert
+# Fancy Text to Binary converter
