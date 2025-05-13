@@ -6,4 +6,10 @@
     font-size: 5rem;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 600;
+    user-select: none;
+
+    .wiggle-text-char {
+        white-space: pre;
+        display: inline-block;
+    }
 }
