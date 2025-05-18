@@ -1,0 +1,19 @@
+.page-content-container {
+    width: inherit;
+    height: inherit;
+
+    .user-text-container {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 4%;
+        max-width: 43%;
+        overflow-wrap: anywhere;
+        transform: translate(0, -50%);
+
+        .user-text {
+            font-size: 5rem;
+            font-weight: 300;
+        }
+    }
+}
