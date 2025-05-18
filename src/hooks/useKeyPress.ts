@@ -10,6 +10,7 @@ export function useKeyPress() {
 
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
+            if (event.key.length !== 1) return;
 
             setState(prev => ({
                 key: event.key,

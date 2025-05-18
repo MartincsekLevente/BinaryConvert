@@ -16,4 +16,19 @@
             font-weight: 300;
         }
     }
+
+    .binary-text-container {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        right: 4%;
+        max-width: 43%;
+        overflow-wrap: anywhere;
+        transform: translate(0, -50%);
+
+        .binary-text {
+            font-size: 5rem;
+            font-weight: 300;
+        }
+    }
 }
